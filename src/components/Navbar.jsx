@@ -139,8 +139,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Mostafa
-          <div style={{ color: theme.primary }}>/</div>Helaly
+          <ColorText>&lt;</ColorText>Hexa 
+          <div style={{ color: theme.primary }}>/</div>Soft
           <ColorText>&gt;</ColorText>
         </NavLogo>
 
@@ -150,10 +150,10 @@ const Navbar = () => {
 
         <NavItems>
           <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
+          <NavLink href="#solutions">Solutions</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Education">Team</NavLink>
         </NavItems>
 
         {isOpen && (
@@ -173,22 +173,21 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
-            <GithubButton
-              href={Bio.github}
-              target="_Blank"
+            <GithubButton href="#Contact"
+              
               style={{
                 background: theme.primary,
                 color: theme.text_primary,
               }}
             >
-              Github Profile
+              Contact Us
             </GithubButton>
           </MobileMenu>
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
+          <GithubButton href="#Contact" >
+            Contact Us
           </GithubButton>
         </ButtonContainer>
       </NavbarContainer>

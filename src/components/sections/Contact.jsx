@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Container = styled.div`
   display: flex;
@@ -100,21 +101,21 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
+  background: hsla(177, 65%, 49%, 100%);
   background: linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+    hsla(177, 65%, 49%, 1) 0%,
+    hsla(170, 97%, 51%, 1)  100%
   );
   background: -moz-linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+     hsla(177, 65%, 49%, 1) 0%,
+      hsla(170, 59%, 42%, 1)  100%
   );
   background: -webkit-linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+     hsla(177, 65%, 49%, 1) 0%,
+     hsla(170, 97%, 51%, 1) 100%
   );
   padding: 13px 16px;
   margin-top: 2px;
@@ -126,47 +127,67 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const form = useRef();
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
-      .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.resut();
-        },
-        (error) => {
-          alert(error);
-        }
-      );
+    const serviceId = 'service_0pl0c95';
+    const templateId = 'template_5zhne5q';
+    const publicKey = 'aB1b2-MMO69a3vPoC';
+
+    // Create a new object that contains dynamic template params
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: 'Mostafa Helaly',
+      message: message,
+    };
+
+    // Send the email using EmailJS
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        alert('Email sent successfully!', response);
+        setName('');
+        setEmail('');
+        setMessage('');
+      })
+      .catch((error) => {
+        alert('Error sending email:', error);
+      });
+
   };
 
   return (
-    <Container>
+    
+    <Container id="Contact">
       <Wrapper>
         <EarthCanvas />
-        <Title>Contact</Title>
+        <Title>Contact US</Title>
         <Desc>
-          Feel free to reach out to me for any questions or opportunities!
+        DO YOU WANT TO MOVE WITH US TO YOUR NEXT STEP?
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+        <ContactForm onSubmit={handleSubmit} >
+          <ContactTitle>Email Us 🚀</ContactTitle>
+          <ContactInput  type="email"
+        placeholder="Your Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)} />
+          <ContactInput  type="text"
+        placeholder="Your Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)} />
+          
+          <ContactInputMessage placeholder="Message" name="message" rows={4} value={message}
+        onChange={(e) => setMessage(e.target.value)} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
     </Container>
+    
   );
-};
+}
 
 export default Contact;

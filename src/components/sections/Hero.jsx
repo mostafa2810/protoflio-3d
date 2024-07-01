@@ -11,7 +11,7 @@ import {
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
-import StarCanvas from "../canvas/Stars";
+// import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -144,18 +144,18 @@ const ResumeButton = styled.a`
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+    hsla(177, 65%, 49%, 1)) 0%,
+       hsla(170, 97%, 51%, 1) 100%
   );
   background: -moz-linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+   hsla(177, 65%, 49%, 1) 0%,
+      hsla(170, 97%, 51%, 1) 100%
   );
   background: -webkit-linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+   hsla(177, 65%, 49%, 1) 0%,
+      hsla(170, 97%, 51%, 1) 100%
   );
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
   border-radius: 50px;
@@ -220,7 +220,7 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          <StarCanvas />
+         
           <HeroBgAnimation />
         </HeroBg>
 
@@ -229,10 +229,10 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div {...headTextAnimation}>
                 <Title>
-                  Hi, I am <br /> {Bio.name}
+                  <br /> {Bio.name}
                 </Title>
                 <TextLoop>
-                  I am a
+                 
                   <Span>
                     <Typewriter
                       options={{
@@ -249,8 +249,8 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
+              <ResumeButton href="#Contact">
+                Contact us
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>

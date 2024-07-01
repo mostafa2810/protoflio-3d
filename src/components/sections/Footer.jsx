@@ -88,29 +88,25 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Mostafa Helaly</Logo>
+        <Logo>Hexa Soft</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
+          <NavLink href="#Skills">Solutions</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Education">Team</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
-          </SocialMediaIcon>
+        
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
-          </SocialMediaIcon>
+        
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Mostafa Helaly. All rights reserved.</Copyright>
+        {/* <Copyright>&copy; 2023 Hexa Soft. All rights reserved.</Copyright> */}
       </FooterWrapper>
     </FooterContainer>
   );

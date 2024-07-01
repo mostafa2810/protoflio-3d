@@ -1,26 +1,24 @@
 export const Bio = {
-  name: "Mostafa Helaly",
+  name: "We are Hexa Soft",
   roles: [
-    "Software Engineer",
-    "Hexa Soft Founder",
-    "UI/UX Designer",
-    "Youtube content creator",
+    "Software Company",
+    "Software Solution",
+    
   ],
   description:
-    "I am a motivated and versatile ​professional software engineer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, If you wanna create a software to start a new business or for your existing business, I will be happy to help you create great software.",
-  github: "https://github.com/rishavchanda",
-  resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "We are an Egyptian software company specialized in providing information technology solutions. Our team is proud of being made up of distinguished Egyptians in the field of programming and software development, and we strive to provide high quality services to our customers.",
+  
+  linkedin: "https://www.linkedin.com/company/96046066/admin/dashboard/",
+  twitter: "#",
+  insta: "#",
+  facebook: "https://www.facebook.com/egycoderss",
 };
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Web development",
     skills: [
+    
       {
         name: "React Js",
         image:
@@ -65,6 +63,49 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
+    
+    
+      
+    ],
+  },
+  {
+    title: "Mobile App Development",
+    skills: [
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "Kotlin",
+        image:
+          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+      },
+      {
+        name: "XML",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+      },
+      {
+        name: "Jetpack Compose",
+        image:
+          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+      },
+      {
+        name: "Dart",
+        image:
+          "https://avatars.githubusercontent.com/u/1609975?s=280&v=4",
+      },
+      {
+        name: "Swift",
+        image:
+          "data:image/jpeg;base64,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",
+      },
+      {
+        name: "Android Studio",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
       {
         name: "Flutter",
         image:
@@ -73,7 +114,7 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
+    title: "Webservices(API's)",
     skills: [
       {
         name: "Node Js",
@@ -117,9 +158,49 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
+    {
+      name:".NET Core",
+      image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png?20210328084203",
+    },
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+     
+    ],
+  },
+  {
+    title: "Machine Learning",
+    skills: [
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Tenserflow",
+        image:
+          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+      },
+      {
+        name: "Keras",
+        image:
+          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+      },
+      {
+        name: "Jupyter",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+      },
+      {
+        name: "Google Colab",
+        image:
+          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+      },
+      {
+        name: "Sk Learn Kit",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
       },
     ],
   },
@@ -165,71 +246,31 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
       },
+
+    ],
+  },
+  
+
+  {
+    title: "HR Services",
+    skills: [
+      {
+        name: "We understand that human resources are the backbone of any successful company. Our HR services provide expert support in areas such as recruitment, employee management, training and development, payroll administration, and compliance. With our strategic approach, we help you optimize your human capital and create a productive and engaged workforce.",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/6839/6839456.png",
+      },
+      
     ],
   },
   {
-    title: "Android",
+    title: "Digital Marketing",
     skills: [
       {
-        name: "Java",
+        name: "In a competitive online landscape, effective digital marketing is essential for reaching and engaging your target audience. Our digital marketing solutions encompass search engine optimization (SEO), social media marketing, content creation, email marketing, and paid advertising. We develop tailored strategies to enhance your online visibility, drive traffic, and generate leads, helping you achieve your marketing goals.",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://cdn-icons-png.freepik.com/512/8026/8026439.png",
       },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "Jetpack Compose",
-        image:
-          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Tenserflow",
-        image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-      },
-      {
-        name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      },
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
+      
     ],
   },
   {
@@ -263,7 +304,7 @@ export const skills = [
       {
         name: "Adobe XD",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://play-lh.googleusercontent.com/kaox1VteLsWAuNxPxhm8t4llaoyFhxzDjo9g4Hdf92bKdT_Sn6Yrdku6rApuc5ktirw",
       },
       {
         name: "Figma",
@@ -277,348 +318,337 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHu7mxbGSRXTbhkWIpXY-XC9hgDlC5WxTlKg&s",
+    role: "Noxus Solutions",
+    desc: "Noxus Solutions,  is an LLC company based in Egypt, dedicated to reshaping the landscape of business solutions. Our primary mission is to set new standards in the industry, providing a diverse array of contemporary business solutions to help companies optimize operations and achieve their goals.",
+    
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+    img: "https://pbs.twimg.com/profile_images/663845371265855488/Ukub1tsG_400x400.jpg",
+    role: "Ghaseel",
+    desc: "the first app for car wash services in Kuwait, expanded to Saudi arabia to serve you in more countries and cities.",
+    
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+    img: "https://cyber-sky.com.au/wp-content/uploads/2022/09/image_6487327-1.png",
+    role: "Cyber Sky",
+    desc: "CyberSky is an Australian company based in Sydney. Provides cybersecurity and artificial intelligence solutions and services. CyberSky Consultancy is a leading provider of innovative and effective technology solutions that help organizations achieve their goals. It provides comprehensive solutions that help organizations manage their complex business processes.",
+   
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
+    img: "data:image/jpeg;base64,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",
+    role: "BIA Assistance Group",
+    desc: "BIA Assistance is a group of companies located in EGYPT - TUNISIA - UAE Specialized in Medical Assistance, Cost Containment Assistance, Travel Assistance, and Repatriation Assistance.",
+ 
+   
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
+    img: "https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/441075462_941921911272247_3752712284894023243_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Yi2rnme-PJcQ7kNvgFenasj&_nc_ht=scontent.fcai19-2.fna&oh=00_AYDZP6-d0xQd2UJNRBUiXLmDiNMZLH_IZYf4awNtuU7eAg&oe=667DDB1F",
+    role: "Menasim ",
+
+    desc: " travel data eSIMs App for iPhone and Android devices!",
   },
   {
     id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
+    img: "https://play-lh.googleusercontent.com/AaUZ84AXuGGUOy00Rkn9HJN5LAtk5_-AWFngtlpCrqs9_jSI-wuFGlHPsBc7o4PnLZxw",
+    role: "Kuwait Online Shopping ",
+
+    desc: " Kuwait Online Shopping App is a collection of all Online Shopping Apps of Kuwait like: Sultan Centre, Lulu Hyper, City Centre, Namshi, Opensooq, X-Cite, jarir Book, Eureka and more.",
   },
+  {
+    id: 6,
+    img: "https://pbs.twimg.com/profile_images/1748947453624176640/J5tytNxS_400x400.jpg",
+    role: "TCSO",
+    desc: " leading Saudi company in the field of information technology and artificial intelligence.",
+    
+  },
+
+  
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F9988ece9-b458-45ac-9a62-5b09d971c63a.png?alt=media&token=7922fedc-ebd9-4706-9835-b4d938cd461c",
+    school: "Mostafa Helaly",
+    degree: "HexaSoft Founder-Software Engineer-Software Instructor-Software solutions manager at Noxus Solutions-Youtube Content Creator",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fshref.png?alt=media&token=579477d4-1fb6-476c-8435-87458f833a46",
+    school: "Ahmed Sherif",
+    degree: "Senior Flutter Developer-Udemy Instructor",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
-];
-
-export const projects = [
-  {
-    id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
-    description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-    image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
-    tags: [
-      "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify-management.netlify.app/",
-  },
-  {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
-  {
-    id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fking.png?alt=media&token=80df697e-95bc-424f-8fc3-fd1b7d84bd54",
+    school: "Magdy Elsayed",
+    degree: "Senior Front-End Developer-Angular expert-Former MNF GDSC TL",
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Frou.jpg?alt=media&token=b7d9bfb0-f7ff-4629-b43b-e2fc4c5586ed",
+    school: "Rewan Magdy",
+    degree: "Senior UI / UX Designer",
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fa0a9af40-9d86-442e-9c8d-0c9742c16cb8.png?alt=media&token=eaca1c2e-a8b1-485f-805e-28f92c6e85b8",
+    school: "Youssef Omar",
+    degree: "Flutter Developer",
   },
   {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fba8f6da9-f094-48ba-ab79-c9dc16cdf67f.png?alt=media&token=c2d7f21a-a07f-4e7c-a577-b8cb6713c827",
+    school: "Mohammed Adel",
+    degree: "Full-Stack .Net Developer",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fbc1b93f2-cee6-4aa3-8169-80b99f178ca9.png?alt=media&token=7cf54dcc-10fa-4181-be3d-9783169cad64",
+    school: "Marawan Hamdy",
+    degree: "Full-Stack Laravel & Flutter",
   },
   {
     id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fcaf2d726-b78c-4727-91f2-892a78b8138b.png?alt=media&token=a3844d97-fb1e-4c84-8d5c-859eb2adbf68",
+    school: "Ahmed Ragaa",
+    degree: "Flutter developer",
   },
   {
     id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Ftaha.png?alt=media&token=de8d94c8-51c9-4daf-9b82-1b50c5bb5799",
+    school: "Taha Khalid",
+    degree: "Back-End Developer",
+  },
+  {
+    id: 9,
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F449178835_1139539334016596_226322146587160193_n.jpg?alt=media&token=2efa8490-637b-43c9-8a22-91ceabacc864",
+    school: "Ali Atwan",
+    degree: "Product Designer",
+  },
+  {
+    id: 10,
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fsayed.jpg?alt=media&token=7ef6f2bf-4875-44bf-b974-3535bef40e10",
+    school: "Al Sayed Abdelbaqey",
+    degree: "Flutter Developer",
+  },
+  {
+    id: 11,
+    img: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fmo-karam.png?alt=media&token=e30b6477-045c-4808-a5ee-04af3d1b5390",
+    school: "Mohamed Karam",
+    degree: "Flutter Developer",
+  },
+];
+export const projects = [
+  {
+    id: 11,
+    title: "GHASEEL CAR WASH",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+      "Ghassel is a popular mobile app with 50k+ downloads on Google Play, innovatively built using Flutter and Laravel for superior performance. It facilitates seamless interaction between sellers and customers, supporting an extensive array of features, from secure authentication systems to product editing. The user-friendly design complements its efficiency, providing a high-quality, intuitive shopping experience. Additionally, its robust administrative interface ensures comprehensive control over every aspect of the platform, making Ghassel a leading choice in online shopping applications.",
     image:
-      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2FUntitled%20design.jpg?alt=media&token=d3612e4f-7a71-40c2-a746-9f199837ff25",
+    tags: [
+      "flutter",
+      "laravel",
+      "dart",
+      "php",
+     
+    ],
+    category: "android app",
+    github: "#",
+    webapp: "https://play.google.com/store/apps/details?id=com.ghaseel.ghaseel2",
+  },
+  {
+    id: 9,
+    title: "Digital Universe",
+    
+    description:
+      "Sister Company of Cyber Sky Provides cybersecurity and artificial intelligence solutions and services. CyberSky Consultancy is a leading provider of innovative and effective technology solutions that help organizations achieve their goals. It provides comprehensive solutions that help organizations manage their complex business processes.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2FCapture-min.PNG?alt=media&token=723f5909-c480-4bd6-9083-99b5378d0ef5",
+    tags: [
+      "Angular js",
+      "laravel",
+      "html",
+      "css",
+      "js",
+      "php",
+      "Tailwind css",
+        ],
+    category: "web app",
+    github: "#",
+    webapp: "https://digitalu.sa/",
+  },
+  {
+    id: 0,
+    title: "Minasim",
+    
+    description:
+      "Connect Globally, Stay Local: Your ESIM Solution!​Explore without limits - Our eSIM keeps you connected in over 200 countries!",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F1709073724_65de653c7256f.jpeg?alt=media&token=b4992987-3eb3-4fca-8a0c-51cbfeba71cf",
+    tags: ["Angular Js", "laravel", "html", "css", "php","js","Tailwind css"],
+    category: "web app",
+    github: "#",
+    webapp: "https://menasim.com/",
+   
+  },
+  {
+    id: 1,
+    title: "Kuwait Online Shopping Sites",
+    description:
+      "Kuwait Online Shopping 5k+ App .the app is a collection of all Online Shopping Apps of Kuwait like: Sultan Centre, Lulu Hyper, City Centre, Namshi, Opensooq, X-Cite, jarir Book, Eureka and more.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F1.png?alt=media&token=16b03386-4872-41ba-b96d-db57969402c3",
+    tags: [
+      "Flutter",
+      "Node Js",
+      "MongoDB",
+      "Dart",
+      "JavaScript",
+   
+    ],
+    category: "android app",
+    github: "#",
+    webapp: "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F1.png?alt=media&token=9a919175-1b00-4a81-a667-16206273b92e",
+  },
+  {
+    id: 2,
+    title: "Minasim",
+ 
+    description:
+      "travel data eSIMs for iPhone and Android devices!",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F1709074113_65de66c1ced88.jpeg?alt=media&token=737c7791-5cb5-41f0-899c-9240abcb5034",
+    tags: ["Flutter", "laravel", "Dart", "php", "SQL",],
+    category: "android app",
+    github: "#",
+    webapp: "https://play.google.com/store/apps/details?id=com.mena.esim.travel",
+   
+    
+  },
+  {
+    id: 3,
+    title: "BIA Assistance Group",
+   
+    description:
+      "BIA Assistance is a group of companies located in EGYPT - TUNISIA - UAE Specialized in Medical Assistance, Cost Containment Assistance, Travel Assistance, and Repatriation Assistance.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2FCapture2-min.PNG?alt=media&token=8349153f-a641-4d2f-8ac7-91513c29fc69",
+    tags: ["Angular js",
+      "laravel",
+      "html",
+      "css",
+      "js",
+      "php",
+      "Tailwind css",],
+    category: "web app",
+    github: "#",
+    webapp: "https://www.bia-assistance.com/",
+  },
+  {
+    id: 10,
+    title: "M3AK APP",
+   
+    description:
+      "m3ak is a powerful 5k+ app developed using Flutter and Firebase, designed to facilitate job searching and ad posting. It offers a streamlined interface for users to search for jobs, alongside an efficient platform for companies to post job ads. Leveraging Firebase's real-time database, it ensures quick and efficient data handling. With its robust framework, JobShare provides a comprehensive solution for job seekers and employers alike.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fa1.png?alt=media&token=4d0820a7-a992-4f95-9719-d87f9fac2a76",
+    tags: ["Flutter", "Java", "Dart","Firebase" ],
+    category: "android app",
+    github: "#",
+    webapp: "https://play.google.com/store/apps/details?id=com.zakhoi.egyptian_ads_app",
+  },
+  {
+    id: 4,
+    title: "Integrity Egypt for Smart Business",
+    description:
+      "Empowering businesses with cutting-edge IT solutions.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fa33.PNG?alt=media&token=5fdc98d9-d302-4894-b5b7-7444b3f3a308",
+      tags: ["angular js", "javascript", "Typescript", "zone.js","jQuery","Animate.css"],
+    category: "web app",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    webapp: "https://www.integrityeg.com/",
+  },
+ 
+  {
+    id: 5,
+    title: "Online Shopping KSA Saudi",
+    description:
+      "Online Sudia is a cutting-edge shopping app built with Flutter and asp.net. It delivers an immersive, fluid experience that captures the joy of retail therapy right at your fingertips. Seamlessly connecting Saudi shoppers with a plethora of products, the app integrates advanced search, user authentication, and robust seller functionalities. Its secure, user-friendly interface, enriched by discounts and customization options, revolutionizes your e-commerce journey.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F1%20(2).png?alt=media&token=cffa7fa6-38d4-492e-a25c-fa3f6ee5cfc1",
+    tags: ["Flutter", "asp.net", "Dart", "C#"],
+    category: "android app",
+    github: "#",
+    webapp: "https://play.google.com/store/apps/details?id=com.onlineksa.shopping.saudishopping",
+  },
+  {
+    id: 6,
+    title: "munjiz",
+    description:
+      "Munjiz combines advanced technology, personalized recommendations, and a vast candidate network to streamline your hiring process and find the perfect fit for your team",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fa11.PNG?alt=media&token=d37ebe62-2782-45f3-9cc8-b8d0ca4c5bbc",
+    category: "web app",
+    tags: ["angular js", "javascript", "Typescript", "zone.js","jQuery"],
+    github: "#",
+    webapp: "https://munjiz.sa/%D9%85%D9%86%D8%AC%D8%B2-%D9%84%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA/",
+  },
+  {
+    id: 7,
+    title: "Sahely Tech",
+    
+    description:
+      "It is an easy-to-use company that specializes in developing software, websites and mobile applications to cooperate with you in electronics transactions. We rely on the latest and best technical talent to solve problems, achieve their goals and increase their sales.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fa23.PNG?alt=media&token=82c0db1c-c3a3-4001-bcbe-22af36e89c28",
+    tags: ["angular js", "javascript", "Typescript", "zone.js","jQuery"],
+    category: "web app",
+    github: "#",
+    webapp: "https://www.sahelytech.com/",
+  },
+  {
+    id: 8,
+    title: "TCSO",
+    description:
+      "leading Saudi company in the field of information technology and artificial intelligence.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2F1%20(1).png?alt=media&token=9cdddd32-2b76-465f-aa9d-2b3d295fca75",
+    tags: ["Angular Js", "Firebase", "Firestore", "Java script"],
+    category: "web app",
+    github: "#",
+    webapp: "https://tcso.ai/",
+  },
+  {
+    id: 9,
+    title: "EL-WASATA",
+    description:
+      "Elwasata Group's Real Estate 5K+ Co mobile app, crafted with the state-of-the-art Flutter and Laravel technologies, is a potent tool for real estate enthusiasts. Users can explore properties, receive tailored recommendations, and connect with agents in real-time. Sellers have the ability to list, modify, and manage their properties with ease. Meanwhile, a powerful backend enables the admin team to oversee all app operations, making it the definitive property solution for all stakeholders in 6th of October city and beyond.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2FELWASATA.png?alt=media&token=f66e8391-92fe-443d-9777-de155388031b",
+    tags: ["Flutter", "Laravel", "php", "Dart"],
+    category: "android app",
+    github: "#",
+    webapp: "https://play.google.com/store/apps/details?id=com.wasata.wasata_user",
+  },
+  {
+    id: 10,
+    title: "Al-Madina Construction",
+    description:
+      "The company provided the most real estate development, construction and retail services for more than 480 housing units in Gharbia Governorate during the period from 2007 to 2017",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/sehetak-72388.appspot.com/o/productsImages%2Fa34-min.PNG?alt=media&token=b9582a55-09f4-458c-b0a1-67615b3d190c",
+      tags: ["angular js", "javascript", "Typescript", "zone.js","jQuery"],
+    category: "web app",
+    github: "#",
+    webapp: "https://www.almadinaconst.com/",
   },
 ];
 

@@ -119,16 +119,15 @@ const SkillImage = styled.img`
 
 const Skills = () => {
   return (
-    <Container id="Skills">
+    <Container id="solutions">
       <Wrapper>
-        <Title>Skills</Title>
+        <Title>Your solution with Hexasoft</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          Here are some of my skills on which I have been working on for the
-          past 3 years.
+          {/* Here are some of our solutions you will need to acheive your success */}
         </Desc>
 
         <SkillsContainer>
